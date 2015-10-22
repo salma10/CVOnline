@@ -44,17 +44,7 @@ namespace CVOnline.Models
 
         public int ExpectedSalary { get; set; }
 
-        public byte Image { get; set; }
-
-        public ICollection<EmploymentHistory> EmploymentHistories { get; set; }
-
-        public ICollection<Training> Trainings { get; set; }
-
-        public ICollection<References> References { get; set; }
-
-        public ICollection<Education> Educations { get; set; }
-
-        public ICollection<ProfessionalQualification> ProfessionalQualifications { get; set; }
+        public byte Photograph { get; set; }
 
         public int UserId { get; set; }
 
